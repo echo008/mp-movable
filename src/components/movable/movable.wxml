@@ -1,0 +1,17 @@
+<movable-area class='movable-box'>
+  <slot/>
+  <movable-view
+    class='movable-btn'
+    x='{{x}}'
+    y='{{y}}'
+    direction='all'
+    bindtap='goEvt'>
+    <navigator
+      target='miniProgram'
+      open-type='navigate'
+      app-id=''
+      path=''
+      extra-data=''
+      version='release'>小程序</navigator>
+  </movable-view>
+</movable-area>
